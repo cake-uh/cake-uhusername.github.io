@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background: #0047AB;
+  color: #fff;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+nav, a {
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  color: darkgray;
+  padding: 20px;
+}
+
+nav, a:hover {
+  color: black;
+  border-radius: 3px;
+}
+
+.banner {
+  background-image: url("https://images.pexels.com/photos/317157/pexels-photo-317157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  max-width: 500;
+  padding: none;
+  opacity: 90%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+  display: block;
+  font-family: sans-serif;
+  font-style: bold;
+  line-height: 50px;
+  margin-left: 20px;
+  letter-spacing: 4px;
+  padding: 25px;
+  position: relative;
+  top: 10%;
+  width: 60%;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  margin: 50px;
+}
+
+search {
+  font-size: 15px;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+footer h3 {
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  display: block;
+  background-color: white;
+  padding: 20px;
+}
+
+footer a:hover {
+  color: black;
+}
